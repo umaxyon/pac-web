@@ -1,0 +1,103 @@
+$background-color: #eee;
+body {
+  background-color: $background-color;
+  margin:0;
+  padding:0;
+}
+
+@font-face {
+  // font-family: YuGothicM;
+  font-family:-apple-system,BlinkMacSystemFont, 'Helvetica Neue', "游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
+  src: local("Yu Gothic Medium");
+}
+
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v36/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+.top-title {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: rgb(0, 188, 212);
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  box-sizing: border-box;
+  border-radius: 0px;
+  position: relative;
+  z-index: 1100;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 28px;
+}
+
+.top-title-img-div {
+  margin-top: 3px;
+  margin-right: 8px;
+  margin-left: -16px;
+}
+
+.top-title-cap {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0px;
+  padding-top: 0px;
+  letter-spacing: 0px;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  height: 32px;
+  line-height: 32px;
+  flex: 1 1 0%;
+}
+
+.top-title-menu-btn {
+  padding:0;
+}
+
+
+.s_txt {
+  font-size: 75%;
+}
+
+.ss_txt {
+  font-size: 70%;
+}
+
+.sss_txt {
+  font-size: 65%
+}
+
+$fa-font-path: "~font-awesome/fonts";
+@import '~font-awesome/scss/font-awesome.scss';
+@import 'reset';
+@import 'parts/bootstrap_parts';
+@import 'parts/PacButton';
+@import 'parts/PacBadgeLink';
+@import 'parts/SuggestForm';
+@import 'ListPage';
+@import 'StockPage';
+@import 'MemberPage';
+@import 'BrandPage';

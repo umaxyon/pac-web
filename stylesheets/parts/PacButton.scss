@@ -1,0 +1,64 @@
+$fontsize: 15px;
+$height: 20px;
+$padding-side: 5px;
+
+@mixin pac-btn-base($height) {
+  @extend .badge-light;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+  font-size: $fontsize;
+  height: $height;
+  text-decoration: none;
+}
+
+.pac-btn {
+  @include pac-btn-base($fontsize);
+}
+
+.pac-btn-ccode-lnk {
+  @include pac-btn-base($fontsize - 1);
+}
+
+.pac-emp-uptime {
+  background-color: #eaf8e8;
+}
+
+.emp-btn {
+  @extend .badge-light;
+  font-size: $fontsize - 5;
+  height: 15px;
+  text-decoration: none;
+  pointer-events: none;
+  cursor: default;
+}
+
+.tw-uptime {
+  line-height: 18px;
+  font-size: 0.9em;
+}
+
+.item-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tw-cnt {
+  padding-left: 5px;
+  line-height: 18px;
+}
+
+.tw-name {
+  padding-left: 5px;
+  line-height: 18px;
+  font-size: 0.5rem
+}
+
+.s_img {
+  width: 15px;
+  height: 15px;
+}
+
+.emp {
+  height: 15px;
+  width: 0;
+}

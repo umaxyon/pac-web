@@ -1,0 +1,110 @@
+.detail-header {
+  padding-top: 3px;
+  background-color: rgb(213, 243, 236);
+  height:100%;
+}
+.detail-header-ccode {
+  font-size: 0.8rem;
+}
+.detail-header-infoline {
+  padding-top: 2px;
+  font-size: 0.8rem;
+}
+.detail-tab {
+  height: 30px;
+}
+
+.detail-header-top-box {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+  align-self: stretch;
+}
+
+.detail-header-top-back {
+  width: 5%;
+  height: 100%;
+  text-align: left;
+  padding-left: 2px;
+  color: yellowgreen;
+  font-size: 0.8em;
+}
+
+.detail-header-top-left {
+  width: 82%;
+  height: 100%;
+}
+.detail-header-top-left-top {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.detail-header-top-right {
+  text-align: right;
+  width: 15%;
+  height: 100%;
+}
+
+.brand-now-price {
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding-right: 7px;
+}
+
+.detai-badge {
+  font-size: 0.6rem;
+}
+
+.tweet-row-head {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+
+.tweet-row-text {
+  padding: 7px;
+  word-wrap: break-word;
+}
+
+.tweet-user-link {
+  font-size: 0.7rem;
+  text-decoration: none;
+  font-weight: 300;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+}
+
+.img-trim {
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+.irtitle {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  margin-right: 10px;
+}
+
+.irhoyugimu {
+  font-size: 0.8em;
+  padding-top: 5px;
+  text-align: right;
+  margin-right: 15px;
+}
+
+.holder-name-cell {
+  word-break: break-all;
+}
+
+.brand-price-right {
+  font-size: 0.7em;
+  font-weight: 400;
+}

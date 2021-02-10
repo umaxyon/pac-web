@@ -1,0 +1,10 @@
+node_modules
+public/bundle.js
+public/bundle.js.map
+public/bundle.css
+public/*.eot
+public/*.woff2
+public/*.woff
+public/*.ttf
+public/*.svg
+yarn-error.log

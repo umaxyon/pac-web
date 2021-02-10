@@ -1,0 +1,49 @@
+.ss_badge_img {
+  width: 12px;
+  height: 12px;
+}
+
+.s_badge_img {
+  width: 15px;
+  height: 15px;
+}
+
+.s_badge_cap {
+  padding-left: 5px;
+  line-height: 18px;
+  font-size: 0.5rem
+}
+
+.n_badge_cap {
+  padding-left: 5px;
+  line-height: 18px;
+}
+
+.m_badge_img {
+  width: 23px;
+  height: 23px;
+}
+.m_badge_cap {
+  padding-left: 2px;
+  padding-right: 2px;
+  line-height: 18px;
+  font-size: 0.8rem
+}
+
+$fontsize: 14px;
+
+@mixin badge-link-base($height) {
+  @extend .badge-light;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+  font-size: $fontsize;
+  height: $height;
+  text-decoration: none;
+}
+
+.s_badge_base {
+  @include pac-btn-base(15px);
+}
+
+.m_badge_base {
+  @include pac-btn-base(21px);
+}
